@@ -1,0 +1,4019 @@
+{
+  "meta": {
+    "version": "2026-10-13.1",
+    "title": "PAR321 ECG and pharmacology study bank",
+    "updatedAt": "2026-10-13",
+    "updateUrl": "https://raw.githubusercontent.com/hectoregovea-cloud/Paramedic-drug-flash-cards1/main/question-packs/latest.json",
+    "kind": "researched-question-pack"
+  },
+  "assets": {},
+  "questions": [
+    {
+      "id": "ecg-expanded-01",
+      "topic": "ECG",
+      "subtopic": "Systematic interpretation",
+      "type": "mcq",
+      "stem": "An adult ECG has a regular rate of 78/min, upright P waves in I and II before every narrow QRS, and a constant PR interval of 160 ms. Which interpretation is best?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Normal sinus rhythm"
+        },
+        {
+          "id": "B",
+          "text": "Atrial fibrillation with controlled ventricular response"
+        },
+        {
+          "id": "C",
+          "text": "Atrial flutter with 4:1 conduction"
+        },
+        {
+          "id": "D",
+          "text": "First-degree AV block"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The rate is in the normal adult range, the P-wave axis is sinus, and AV conduction is 1:1 with a normal PR interval. Rate alone cannot identify sinus rhythm.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Normal Sinus Rhythm — LITFL",
+            "url": "https://litfl.com/normal-sinus-rhythm-ecg-library/",
+            "quote": "Regular rhythm at a rate of 60-100 bpm (or age-appropriate …",
+            "accessedAt": "2026-10-13"
+          },
+          {
+            "title": "Normal Sinus Rhythm — LITFL",
+            "url": "https://litfl.com/normal-sinus-rhythm-ecg-library/",
+            "quote": "Normal P wave axis: P waves upright in leads I …",
+            "accessedAt": "2026-10-13"
+          },
+          {
+            "title": "QAS CPP: 12-Lead ECG acquisition and interpretation (June 2026)",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0033/475791/CPP_12-Lead-ECG-acquisition-and-interpretation.pdf",
+            "quote": "Is the PR interval normal (0.12−0.20 seconds)",
+            "accessedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ecg-expanded-02",
+      "topic": "ECG",
+      "subtopic": "Rate calculation",
+      "type": "mcq",
+      "stem": "At a paper speed of 25 mm/s, a regular rhythm has four large squares between consecutive R waves. What is the ventricular rate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "60/min"
+        },
+        {
+          "id": "B",
+          "text": "75/min"
+        },
+        {
+          "id": "C",
+          "text": "100/min"
+        },
+        {
+          "id": "D",
+          "text": "150/min"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "For a regular rhythm at 25 mm/s, rate = 300 divided by the number of large squares between R waves. 300 ÷ 4 = 75/min. Confirm the paper speed before calculating.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "ECG Rate Interpretation — LITFL",
+            "url": "https://litfl.com/ecg-rate-interpretation/",
+            "quote": "Large square method: Divide 300 by the number of large …",
+            "accessedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ecg-expanded-03",
+      "topic": "ECG",
+      "subtopic": "Rate calculation",
+      "type": "mcq",
+      "stem": "A clearly labelled 10-second strip of an irregular rhythm contains 12 QRS complexes. What is the best estimate of its average ventricular rate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "60/min"
+        },
+        {
+          "id": "B",
+          "text": "120/min"
+        },
+        {
+          "id": "C",
+          "text": "72/min"
+        },
+        {
+          "id": "D",
+          "text": "144/min"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A 10-second count is multiplied by six to estimate beats per minute: 12 × 6 = 72/min. With an irregular rhythm, a single R–R interval may not represent the average rate.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "ECG Rate Interpretation — LITFL",
+            "url": "https://litfl.com/ecg-rate-interpretation/",
+            "quote": "Rate = Number of R waves (rhythm strip) X 6",
+            "accessedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ecg-expanded-04",
+      "topic": "ECG",
+      "subtopic": "Calibration",
+      "type": "mcq",
+      "stem": "At standard paper speed of 25 mm/s, what time does one small 1 mm square represent?",
+      "options": [
+        {
+          "id": "A",
+          "text": "0.02 seconds"
+        },
+        {
+          "id": "B",
+          "text": "0.20 seconds"
+        },
+        {
+          "id": "C",
+          "text": "0.10 seconds"
+        },
+        {
+          "id": "D",
+          "text": "0.04 seconds"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "At 25 mm/s, 1 mm represents 1/25 second, or 0.04 seconds (40 ms). A large 5 mm square represents 0.20 seconds.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "ECG Rate Interpretation — LITFL",
+            "url": "https://litfl.com/ecg-rate-interpretation/",
+            "quote": "1 SMALL square (1mm) = 0.04 sec (40ms)",
+            "accessedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ecg-expanded-05",
+      "topic": "ECG",
+      "subtopic": "Intervals",
+      "type": "mcq",
+      "stem": "Which two landmarks define the PR interval?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Start of the P wave to start of the QRS complex"
+        },
+        {
+          "id": "B",
+          "text": "End of the P wave to end of the QRS complex"
+        },
+        {
+          "id": "C",
+          "text": "Start of the QRS complex to end of the T wave"
+        },
+        {
+          "id": "D",
+          "text": "Peak of one R wave to the peak of the next R wave"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The PR interval runs from the onset of atrial depolarisation (P wave) to the onset of ventricular depolarisation (QRS), and is used when assessing AV conduction.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "PR Interval — LITFL",
+            "url": "https://litfl.com/pr-interval-ecg-library/",
+            "quote": "The PR interval is the time from the onset of …",
+            "accessedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ecg-expanded-06",
+      "topic": "ECG",
+      "subtopic": "Intervals",
+      "type": "mcq",
+      "stem": "Which PR interval is within the normal range used in the QAS systematic ECG assessment?",
+      "options": [
+        {
+          "id": "A",
+          "text": "80 ms"
+        },
+        {
+          "id": "B",
+          "text": "160 ms"
+        },
+        {
+          "id": "C",
+          "text": "240 ms"
+        },
+        {
+          "id": "D",
+          "text": "340 ms"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The QAS ECG acquisition and interpretation procedure gives a normal PR interval of 0.12–0.20 seconds, equivalent to 120–200 ms. 160 ms is within that range.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "QAS CPP: 12-Lead ECG acquisition and interpretation (June 2026)",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0033/475791/CPP_12-Lead-ECG-acquisition-and-interpretation.pdf",
+            "quote": "Is the PR interval normal (0.12−0.20 seconds)",
+            "accessedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ecg-expanded-07",
+      "topic": "ECG",
+      "subtopic": "First-degree AV block",
+      "type": "mcq",
+      "stem": "At 25 mm/s, the PR interval measures seven small squares and is constant. Every P wave is followed by a QRS. What is the best interpretation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Second-degree AV block, Mobitz I"
+        },
+        {
+          "id": "B",
+          "text": "Complete heart block"
+        },
+        {
+          "id": "C",
+          "text": "First-degree AV block"
+        },
+        {
+          "id": "D",
+          "text": "Normal AV conduction"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Seven small squares × 40 ms = 280 ms. A constant PR interval greater than 200 ms with preserved 1:1 conduction supports first-degree AV block; there are no dropped beats.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "ECG Rate Interpretation — LITFL",
+            "url": "https://litfl.com/ecg-rate-interpretation/",
+            "quote": "1 SMALL square (1mm) = 0.04 sec (40ms)",
+            "accessedAt": "2026-10-13"
+          },
+          {
+            "title": "First Degree Heart Block — LITFL",
+            "url": "https://litfl.com/first-degree-heart-block-ecg-library/",
+            "quote": "PR interval > 200ms (five small squares)",
+            "accessedAt": "2026-10-13"
+          },
+          {
+            "title": "First Degree Heart Block — LITFL",
+            "url": "https://litfl.com/first-degree-heart-block-ecg-library/",
+            "quote": "There is delay, without interruption, in conduction from atria to …",
+            "accessedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ecg-expanded-08",
+      "topic": "ECG",
+      "subtopic": "First-degree AV block",
+      "type": "mcq",
+      "stem": "A stable patient with first-degree AV block takes several medicines. Which combination most directly prompts review for slowed AV conduction?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Paracetamol and an inhaled corticosteroid"
+        },
+        {
+          "id": "B",
+          "text": "An oral iron supplement and topical emollient"
+        },
+        {
+          "id": "C",
+          "text": "Ondansetron and an oral rehydration solution"
+        },
+        {
+          "id": "D",
+          "text": "A beta blocker and digoxin"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Beta blockers and digoxin can slow AV nodal conduction and contribute to PR prolongation. Assessment also considers symptoms, ischaemia and electrolyte disturbance; do not assume a medicine is the only cause.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "First Degree Heart Block — LITFL",
+            "url": "https://litfl.com/first-degree-heart-block-ecg-library/",
+            "quote": "AV nodal blocking drugs (beta-blockers, calcium channel blockers, digoxin, amiodarone)",
+            "accessedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ecg-expanded-09",
+      "topic": "ECG",
+      "subtopic": "Second-degree AV block",
+      "type": "mcq",
+      "stem": "The PR interval becomes progressively longer across a group of beats, then a P wave is not followed by a QRS. The next conducted PR interval is shorter. Which block is best supported?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mobitz I (Wenckebach)"
+        },
+        {
+          "id": "B",
+          "text": "Mobitz II"
+        },
+        {
+          "id": "C",
+          "text": "First-degree AV block"
+        },
+        {
+          "id": "D",
+          "text": "Complete AV block"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Progressive PR lengthening before a non-conducted P wave, followed by a shorter PR interval, is the characteristic Wenckebach sequence.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "AV Block: 2nd degree, Mobitz I — LITFL",
+            "url": "https://litfl.com/av-block-2nd-degree-mobitz-i-wenckebach-phenomenon/",
+            "quote": "Progressive prolongation of the PR interval culminating in a non-conducted …",
+            "accessedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ecg-expanded-10",
+      "topic": "ECG",
+      "subtopic": "Second-degree AV block",
+      "type": "mcq",
+      "stem": "Several consecutive P waves conduct with the same PR interval. An occasional P wave is not followed by a QRS, without progressive PR lengthening. Which block is most consistent?",
+      "options": [
+        {
+          "id": "A",
+          "text": "First-degree AV block"
+        },
+        {
+          "id": "B",
+          "text": "Mobitz II"
+        },
+        {
+          "id": "C",
+          "text": "Mobitz I"
+        },
+        {
+          "id": "D",
+          "text": "Sinus arrhythmia"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Intermittent non-conducted P waves with unchanged PR intervals in the conducted beats support Mobitz II. It is a potentially serious conduction disorder requiring clinical assessment and monitored escalation.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "AV Block: 2nd degree, Mobitz II — LITFL",
+            "url": "https://litfl.com/av-block-2nd-degree-mobitz-ii-hay-block/",
+            "quote": "The PR interval in the conducted beats remains constant",
+            "accessedAt": "2026-10-13"
+          },
+          {
+            "title": "AV Block: 2nd degree, Mobitz II — LITFL",
+            "url": "https://litfl.com/av-block-2nd-degree-mobitz-ii-hay-block/",
+            "quote": "intermittent non-conducted P waves without progressive prolongation of the PR …",
+            "accessedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ecg-expanded-11",
+      "topic": "ECG",
+      "subtopic": "Second-degree AV block",
+      "type": "mcq",
+      "stem": "A short strip shows a consistent 2:1 AV conduction ratio: every other P wave conducts. What is the most defensible interpretation from that strip alone?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The 2:1 ratio proves Mobitz I"
+        },
+        {
+          "id": "B",
+          "text": "The 2:1 ratio proves Mobitz II"
+        },
+        {
+          "id": "C",
+          "text": "Describe 2:1 AV block; the ratio alone may not distinguish Mobitz I from Mobitz II"
+        },
+        {
+          "id": "D",
+          "text": "This is necessarily complete heart block"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A fixed 2:1 pattern does not show enough consecutive conducted PR intervals to demonstrate or exclude a Wenckebach sequence. A longer tracing and the clinical context may clarify the mechanism.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "AV Block: 2nd degree, Mobitz I — LITFL",
+            "url": "https://litfl.com/av-block-2nd-degree-mobitz-i-wenckebach-phenomenon/",
+            "quote": "2:1 AV conduction, which makes discerning the type of block …",
+            "accessedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ecg-expanded-12",
+      "topic": "ECG",
+      "subtopic": "Complete heart block",
+      "type": "mcq",
+      "stem": "Atrial activity is regular at 90/min and the ventricular escape rhythm is regular at 32/min. P waves march through independently and none appear to conduct. Which diagnosis is most consistent?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sinus bradycardia"
+        },
+        {
+          "id": "B",
+          "text": "First-degree AV block"
+        },
+        {
+          "id": "C",
+          "text": "Mobitz I AV block"
+        },
+        {
+          "id": "D",
+          "text": "Complete (third-degree) AV block"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Complete AV block means atrial impulses do not conduct to the ventricles. Independent atrial and ventricular rates and a slow escape rhythm support this diagnosis. AV dissociation in other settings, such as VT, has a broader differential.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "AV block: 3rd degree — LITFL",
+            "url": "https://litfl.com/av-block-3rd-degree-complete-heart-block/",
+            "quote": "The ECG demonstrates complete AV dissociation, with independent atrial and …",
+            "accessedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ecg-expanded-13",
+      "topic": "ECG",
+      "subtopic": "Complete heart block",
+      "type": "mcq",
+      "stem": "A patient has established complete AV block. The escape QRS complexes are relatively narrow. Which explanation is most plausible?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A junctional escape focus is maintaining the ventricular rhythm"
+        },
+        {
+          "id": "B",
+          "text": "Narrow QRS complexes exclude complete AV block"
+        },
+        {
+          "id": "C",
+          "text": "The ventricular rate must equal the atrial rate"
+        },
+        {
+          "id": "D",
+          "text": "Every atrial impulse is now conducting normally"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Complete AV block can be maintained by a junctional escape rhythm, which may produce narrow QRS complexes, or a ventricular escape rhythm, which is usually broader. QRS width alone does not exclude AV block.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "AV block: 3rd degree — LITFL",
+            "url": "https://litfl.com/av-block-3rd-degree-complete-heart-block/",
+            "quote": "The perfusing rhythm is maintained by junctional or ventricular escape …",
+            "accessedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ecg-expanded-14",
+      "topic": "ECG",
+      "subtopic": "Clinical stability",
+      "type": "mcq",
+      "stem": "Which presentation makes a slow rhythm most concerning for clinically significant bradycardia?",
+      "options": [
+        {
+          "id": "A",
+          "text": "An asymptomatic athlete with a resting rate of 54/min"
+        },
+        {
+          "id": "B",
+          "text": "A patient at 34/min with hypotension, confusion and recurrent syncope"
+        },
+        {
+          "id": "C",
+          "text": "A sleeping adult at 56/min with normal perfusion"
+        },
+        {
+          "id": "D",
+          "text": "A comfortable adult at 58/min without adverse symptoms"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Hypotension, syncope and cerebral hypoperfusion indicate adverse physiological effects. Assessment focuses on perfusion and symptoms as well as the ECG label; follow the current QAS arrhythmia pathway and seek appropriate clinical support.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "QAS CPG: Cardiac arrhythmias (September 2024)",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0026/308717/CPG_Cardiac-arrhythmias.pdf",
+            "quote": "Acute symptomatic bradycardia is defined as a bradyarrhythmia that",
+            "accessedAt": "2026-10-13"
+          },
+          {
+            "title": "ANZCOR Guideline 11.9: Managing Acute Dysrhythmias",
+            "url": "https://www.anzcor.org/home/adult-advanced-life-support/guideline-11-9-managing-acute-dysrhythmias/",
+            "quote": "Patients with a slow heart beat who do not experience …",
+            "accessedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ecg-expanded-15",
+      "topic": "ECG",
+      "subtopic": "Atrial fibrillation",
+      "type": "mcq",
+      "stem": "A narrow-complex rhythm has unpredictably variable R–R intervals and no discrete P waves. Which rhythm is best supported?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sinus arrhythmia"
+        },
+        {
+          "id": "B",
+          "text": "Flutter with fixed 4:1 conduction"
+        },
+        {
+          "id": "C",
+          "text": "Atrial fibrillation"
+        },
+        {
+          "id": "D",
+          "text": "Regular AV nodal re-entry tachycardia"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Atrial fibrillation typically produces an irregularly irregular ventricular rhythm without discrete P waves. Sinus arrhythmia retains sinus P waves. Assess other irregular rhythms and artefact if the baseline is unclear.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Atrial Fibrillation — LITFL",
+            "url": "https://litfl.com/atrial-fibrillation-ecg-library/",
+            "quote": "Irregularly irregular rhythm No P waves",
+            "accessedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ecg-expanded-16",
+      "topic": "ECG",
+      "subtopic": "Atrial fibrillation",
+      "type": "mcq",
+      "stem": "An older patient with infection has a narrow-complex rate averaging 145/min, irregularly irregular R–R intervals and no discrete P waves. Which interpretation is best?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sinus tachycardia caused by fever"
+        },
+        {
+          "id": "B",
+          "text": "Atrial flutter with fixed 2:1 conduction"
+        },
+        {
+          "id": "C",
+          "text": "Regular narrow-complex SVT"
+        },
+        {
+          "id": "D",
+          "text": "Atrial fibrillation with a rapid ventricular response"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The absent discrete P waves and irregularly irregular ventricular rhythm support AF; the rapid rate describes its ventricular response. Infection may precipitate AF, and haemodynamic assessment remains essential.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Atrial Fibrillation — LITFL",
+            "url": "https://litfl.com/atrial-fibrillation-ecg-library/",
+            "quote": "Irregularly irregular rhythm No P waves",
+            "accessedAt": "2026-10-13"
+          },
+          {
+            "title": "Atrial Fibrillation — LITFL",
+            "url": "https://litfl.com/atrial-fibrillation-ecg-library/",
+            "quote": "Variable ventricular rate",
+            "accessedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ecg-expanded-17",
+      "topic": "ECG",
+      "subtopic": "Atrial fibrillation",
+      "type": "mcq",
+      "stem": "An ECG shows AF at an average ventricular rate of 82/min. Which statement is correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A controlled ventricular rate does not mean sinus rhythm has returned"
+        },
+        {
+          "id": "B",
+          "text": "A rate below 100/min excludes AF"
+        },
+        {
+          "id": "C",
+          "text": "Every QRS must now have a normal P wave"
+        },
+        {
+          "id": "D",
+          "text": "Controlled AF always has regular R–R intervals"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The ventricular rate and the underlying rhythm are separate descriptors. AF can have a controlled rate while atrial activity remains disorganised and R–R intervals remain irregular.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Atrial Fibrillation — LITFL",
+            "url": "https://litfl.com/atrial-fibrillation-ecg-library/",
+            "quote": "Irregularly irregular rhythm No P waves",
+            "accessedAt": "2026-10-13"
+          },
+          {
+            "title": "Atrial Fibrillation — LITFL",
+            "url": "https://litfl.com/atrial-fibrillation-ecg-library/",
+            "quote": "Variable ventricular rate",
+            "accessedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ecg-expanded-18",
+      "topic": "ECG",
+      "subtopic": "Atrial flutter",
+      "type": "mcq",
+      "stem": "Which baseline finding most strongly supports typical atrial flutter rather than atrial fibrillation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Completely unpredictable atrial activity with no repetitive pattern"
+        },
+        {
+          "id": "B",
+          "text": "Repetitive saw-tooth atrial waves, often prominent in II, III and aVF"
+        },
+        {
+          "id": "C",
+          "text": "A single normal P wave before every QRS at 75/min"
+        },
+        {
+          "id": "D",
+          "text": "Progressive PR lengthening before a dropped beat"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Typical flutter has organised repetitive atrial activity, often around 300/min. Saw-tooth waves in the inferior leads support the diagnosis, although their appearance varies with the flutter circuit and lead.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Atrial Flutter — LITFL",
+            "url": "https://litfl.com/atrial-flutter-ecg-library/",
+            "quote": "“Saw-tooth” pattern of inverted flutter waves in leads II, III, …",
+            "accessedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ecg-expanded-19",
+      "topic": "ECG",
+      "subtopic": "Atrial flutter",
+      "type": "mcq",
+      "stem": "Organised flutter activity is approximately 300/min, with four flutter waves for each conducted QRS. What ventricular rate is expected?",
+      "options": [
+        {
+          "id": "A",
+          "text": "60/min"
+        },
+        {
+          "id": "B",
+          "text": "100/min"
+        },
+        {
+          "id": "C",
+          "text": "75/min"
+        },
+        {
+          "id": "D",
+          "text": "150/min"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "With 4:1 AV conduction, approximately one of every four atrial impulses produces a QRS: 300 ÷ 4 = 75/min. Identify the atrial pattern as well as calculating the ventricular rate.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Atrial Flutter — LITFL",
+            "url": "https://litfl.com/atrial-flutter-ecg-library/",
+            "quote": "2:1 block = 150 bpm 3:1 block = 100 bpm …",
+            "accessedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ecg-expanded-20",
+      "topic": "ECG",
+      "subtopic": "Atrial flutter",
+      "type": "mcq",
+      "stem": "A patient has organised atrial activity at approximately 300/min and a regular ventricular rate near 150/min. Which conduction ratio is most likely?",
+      "options": [
+        {
+          "id": "A",
+          "text": "4:1"
+        },
+        {
+          "id": "B",
+          "text": "3:1"
+        },
+        {
+          "id": "C",
+          "text": "1:1"
+        },
+        {
+          "id": "D",
+          "text": "2:1"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "An atrial rate of 300/min divided by a ventricular rate of 150/min gives a 2:1 conduction ratio. A regular rate near 150 should prompt a careful search for flutter, but the rate by itself does not establish the diagnosis.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Atrial Flutter — LITFL",
+            "url": "https://litfl.com/atrial-flutter-ecg-library/",
+            "quote": "2:1 block = 150 bpm 3:1 block = 100 bpm …",
+            "accessedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ecg-expanded-21",
+      "topic": "ECG",
+      "subtopic": "Atrial flutter",
+      "type": "mcq",
+      "stem": "Visible repetitive flutter waves are present, but the number of atrial waves between QRS complexes changes. The ventricular rhythm is irregular. Which statement is best?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Flutter with variable AV conduction can produce an irregular ventricular rhythm"
+        },
+        {
+          "id": "B",
+          "text": "Irregularity excludes flutter"
+        },
+        {
+          "id": "C",
+          "text": "All irregular rhythms are AF"
+        },
+        {
+          "id": "D",
+          "text": "The tracing must show complete AV block"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Atrial flutter with variable AV conduction can have an irregular ventricular response and mimic AF. Organised atrial waves and changing conduction ratios help distinguish the rhythms.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Atrial Flutter — LITFL",
+            "url": "https://litfl.com/atrial-flutter-ecg-library/",
+            "quote": "The ventricular response is irregular and may mimic atrial fibrillation …",
+            "accessedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ecg-expanded-22",
+      "topic": "ECG",
+      "subtopic": "SVT",
+      "type": "mcq",
+      "stem": "A young adult reports palpitations that started abruptly. The ECG shows a regular narrow-complex tachycardia at 180/min with P waves difficult to identify. Which pattern is most consistent?",
+      "options": [
+        {
+          "id": "A",
+          "text": "AF with rapid ventricular response"
+        },
+        {
+          "id": "B",
+          "text": "Paroxysmal re-entrant SVT"
+        },
+        {
+          "id": "C",
+          "text": "Mobitz I AV block"
+        },
+        {
+          "id": "D",
+          "text": "Sinus arrhythmia"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Abrupt onset and a fast regular narrow-complex rhythm with hidden atrial activity are consistent with paroxysmal re-entrant SVT. AVNRT is common, but this description alone does not prove a specific re-entry circuit.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Supraventricular Tachycardia (SVT) — LITFL",
+            "url": "https://litfl.com/supraventricular-tachycardia-svt-ecg-library/",
+            "quote": "Paroxysmal SVT (pSVT) describes an SVT with abrupt onset and …",
+            "accessedAt": "2026-10-13"
+          },
+          {
+            "title": "Supraventricular Tachycardia (SVT) — LITFL",
+            "url": "https://litfl.com/supraventricular-tachycardia-svt-ecg-library/",
+            "quote": "P waves are often hidden – being embedded in the …",
+            "accessedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ecg-expanded-23",
+      "topic": "ECG",
+      "subtopic": "SVT",
+      "type": "mcq",
+      "stem": "A report says “regular narrow-complex tachycardia, P waves not clearly visible”. What is the most accurate limitation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It proves the rhythm arises in the ventricles"
+        },
+        {
+          "id": "B",
+          "text": "It excludes atrial flutter"
+        },
+        {
+          "id": "C",
+          "text": "It supports a supraventricular tachycardia pattern but does not by itself establish the exact mechanism"
+        },
+        {
+          "id": "D",
+          "text": "It proves sinus tachycardia"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The differential includes AVNRT, AVRT and some atrial tachycardias, including flutter with concealed atrial waves. Use a full ECG, onset history and clinical context; avoid assigning a specific mechanism from absent visible P waves alone.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Supraventricular Tachycardia (SVT) — LITFL",
+            "url": "https://litfl.com/supraventricular-tachycardia-svt-ecg-library/",
+            "quote": "Paroxysmal SVT (pSVT) describes an SVT with abrupt onset and …",
+            "accessedAt": "2026-10-13"
+          },
+          {
+            "title": "Supraventricular Tachycardia (SVT) — LITFL",
+            "url": "https://litfl.com/supraventricular-tachycardia-svt-ecg-library/",
+            "quote": "P waves are often hidden – being embedded in the …",
+            "accessedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ecg-expanded-24",
+      "topic": "ECG",
+      "subtopic": "Unstable tachyarrhythmia",
+      "type": "mcq",
+      "stem": "A regular narrow-complex tachycardia is accompanied by a BP of 76/42 mmHg and deteriorating consciousness. What is the safest clinical interpretation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stable because the QRS is narrow"
+        },
+        {
+          "id": "B",
+          "text": "Benign if the patient is younger than 40"
+        },
+        {
+          "id": "C",
+          "text": "Suitable for delayed assessment after spontaneous recovery"
+        },
+        {
+          "id": "D",
+          "text": "An unstable tachyarrhythmia requiring time-critical assessment and escalation under current QAS guidance"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "QRS width does not establish stability. Hypotension and impaired consciousness suggest inadequate perfusion. Current QAS guidance treats unstable tachyarrhythmias as time-critical and directs escalation within clinician scope, with clinical support when needed.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "QAS CPG: Cardiac arrhythmias (September 2024)",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0026/308717/CPG_Cardiac-arrhythmias.pdf",
+            "quote": "Unstable tachyarrhythmias precipitate clinical symptoms such as hypotension, an altered …",
+            "accessedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ecg-expanded-25",
+      "topic": "ECG",
+      "subtopic": "QRS classification",
+      "type": "mcq",
+      "stem": "Under the QAS systematic interpretation framework, which QRS duration is within the normal width range?",
+      "options": [
+        {
+          "id": "A",
+          "text": "90 ms"
+        },
+        {
+          "id": "B",
+          "text": "130 ms"
+        },
+        {
+          "id": "C",
+          "text": "160 ms"
+        },
+        {
+          "id": "D",
+          "text": "180 ms"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The QAS ECG procedure asks whether QRS duration is within normal limits, less than 0.12 seconds. A 90 ms complex is narrow. A broad QRS still requires interpretation of rhythm and possible conduction or metabolic causes.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "QAS CPP: 12-Lead ECG acquisition and interpretation (June 2026)",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0033/475791/CPP_12-Lead-ECG-acquisition-and-interpretation.pdf",
+            "quote": "What is the width of the QRS complex? Is it …",
+            "accessedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ecg-expanded-26",
+      "topic": "ECG",
+      "subtopic": "STEMI territories",
+      "type": "mcq",
+      "stem": "Regional ST elevation is present in I, aVL, V5 and V6 in a patient with ischaemic chest pain. Which territory is most directly represented?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inferior"
+        },
+        {
+          "id": "B",
+          "text": "Lateral"
+        },
+        {
+          "id": "C",
+          "text": "Posterior only"
+        },
+        {
+          "id": "D",
+          "text": "Right ventricle only"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "I and aVL are high lateral leads, while V5 and V6 face the lateral wall. Consider adjacent territory involvement, reciprocal changes and the clinical picture.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Lateral STEMI ECG changes — LITFL",
+            "url": "https://litfl.com/lateral-stemi-ecg-library/",
+            "quote": "ST elevation in the lateral leads (I, aVL, V5-6).",
+            "accessedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ecg-expanded-27",
+      "topic": "ECG",
+      "subtopic": "Reciprocal changes",
+      "type": "mcq",
+      "stem": "ST elevation is most prominent in I and aVL. Which accompanying change would support an acute high lateral infarction?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Isolated PR depression in every lead"
+        },
+        {
+          "id": "B",
+          "text": "Peaked T waves with progressive QRS widening"
+        },
+        {
+          "id": "C",
+          "text": "ST depression in III and aVF"
+        },
+        {
+          "id": "D",
+          "text": "A constant PR interval of 260 ms"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Inferior ST depression can be reciprocal to ST elevation in the high lateral leads. Reciprocal changes strengthen the regional injury pattern; they are not required in every infarction and may be altered by combined territories.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Lateral STEMI ECG changes — LITFL",
+            "url": "https://litfl.com/lateral-stemi-ecg-library/",
+            "quote": "Reciprocal ST depression in the inferior leads (III and aVF).",
+            "accessedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ecg-expanded-28",
+      "topic": "ECG",
+      "subtopic": "Anterior infarction",
+      "type": "mcq",
+      "stem": "A patient has ongoing ischaemic chest pain and regional ST elevation maximal in V2–V4. Which diagnosis is most concerning?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Isolated right ventricular infarction"
+        },
+        {
+          "id": "B",
+          "text": "Isolated inferior infarction"
+        },
+        {
+          "id": "C",
+          "text": "Typical atrial flutter"
+        },
+        {
+          "id": "D",
+          "text": "Acute anterior/anteroseptal coronary injury pattern"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "V2–V4 regional ST elevation with ischaemic symptoms raises concern for anterior/anteroseptal infarction. ECG territory names approximate the myocardium involved; urgent clinical assessment and reperfusion pathway evaluation are required.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Anterior Myocardial Infarction — LITFL",
+            "url": "https://litfl.com/anterior-myocardial-infarction-ecg-library/",
+            "quote": "ST segment elevation with subsequent Q wave formation in precordial …",
+            "accessedAt": "2026-10-13"
+          },
+          {
+            "title": "QAS CPG: Acute coronary syndrome (June 2026)",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0022/219019/CPG_Acute-coronary-syndrome.pdf",
+            "quote": "All STEMI cases mandate CCP or ACP2 involvement where available …",
+            "accessedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ecg-expanded-29",
+      "topic": "ECG",
+      "subtopic": "Coronary anatomy",
+      "type": "mcq",
+      "stem": "Which coronary artery most commonly supplies the territory involved in an anterior STEMI?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Left anterior descending artery"
+        },
+        {
+          "id": "B",
+          "text": "Right coronary artery in every patient"
+        },
+        {
+          "id": "C",
+          "text": "Obtuse marginal branch in every patient"
+        },
+        {
+          "id": "D",
+          "text": "Ramus intermedius artery"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Anterior STEMI most commonly follows LAD occlusion. ECG findings are not a substitute for angiography, and coronary anatomy and the exact level of occlusion vary.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Anterior Myocardial Infarction — LITFL",
+            "url": "https://litfl.com/anterior-myocardial-infarction-ecg-library/",
+            "quote": "Anterior STEMI usually results from occlusion of the left anterior …",
+            "accessedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ecg-expanded-30",
+      "topic": "ECG",
+      "subtopic": "STEMI territories",
+      "type": "mcq",
+      "stem": "A patient with ischaemic chest pain has regional ST elevation in II, III and aVF. Which territory is most consistent?",
+      "options": [
+        {
+          "id": "A",
+          "text": "High lateral"
+        },
+        {
+          "id": "B",
+          "text": "Inferior"
+        },
+        {
+          "id": "C",
+          "text": "Septal only"
+        },
+        {
+          "id": "D",
+          "text": "Posterior only"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "II, III and aVF face the inferior wall. Look for associated reciprocal changes and possible right ventricular, posterior or conduction involvement.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Inferior STEMI — LITFL",
+            "url": "https://litfl.com/inferior-stemi-ecg-library/",
+            "quote": "ST elevation in leads II, III, aVF",
+            "accessedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ecg-expanded-31",
+      "topic": "ECG",
+      "subtopic": "Reciprocal changes",
+      "type": "mcq",
+      "stem": "In suspected inferior coronary occlusion, which lead is particularly useful to inspect for reciprocal ST depression?",
+      "options": [
+        {
+          "id": "A",
+          "text": "V6"
+        },
+        {
+          "id": "B",
+          "text": "V4"
+        },
+        {
+          "id": "C",
+          "text": "aVL"
+        },
+        {
+          "id": "D",
+          "text": "aVR alone"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "aVL faces the high lateral direction and is reciprocal to the inferior wall. ST depression there can support an inferior injury pattern, including subtle cases, but must be interpreted with the whole ECG.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Inferior STEMI — LITFL",
+            "url": "https://litfl.com/inferior-stemi-ecg-library/",
+            "quote": "Reciprocal ST depression in aVL",
+            "accessedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ecg-expanded-32",
+      "topic": "ECG",
+      "subtopic": "STEMI territories",
+      "type": "mcq",
+      "stem": "ST elevation spans V2–V6 and also I and aVL, with inferior reciprocal depression. Which description best captures the territory?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Isolated septal infarction"
+        },
+        {
+          "id": "B",
+          "text": "Isolated inferior infarction"
+        },
+        {
+          "id": "C",
+          "text": "Isolated right ventricular infarction"
+        },
+        {
+          "id": "D",
+          "text": "Anterior infarction with lateral involvement"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The precordial changes show anterior involvement, while I, aVL and V5–V6 show lateral extension. Such a pattern represents a larger myocardial territory at risk and requires time-critical assessment.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Anterior Myocardial Infarction — LITFL",
+            "url": "https://litfl.com/anterior-myocardial-infarction-ecg-library/",
+            "quote": "ST segment elevation with subsequent Q wave formation in precordial …",
+            "accessedAt": "2026-10-13"
+          },
+          {
+            "title": "Lateral STEMI ECG changes — LITFL",
+            "url": "https://litfl.com/lateral-stemi-ecg-library/",
+            "quote": "ST elevation in the lateral leads (I, aVL, V5-6).",
+            "accessedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ecg-expanded-33",
+      "topic": "ECG",
+      "subtopic": "Reciprocal changes",
+      "type": "mcq",
+      "stem": "A patient with ongoing ischaemic symptoms has convincing regional anterior ST elevation but no obvious inferior reciprocal depression. Which statement is best?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Absence of reciprocal depression does not exclude anterior STEMI"
+        },
+        {
+          "id": "B",
+          "text": "No reciprocal depression proves benign early repolarisation"
+        },
+        {
+          "id": "C",
+          "text": "Anterior infarction always produces inferior depression"
+        },
+        {
+          "id": "D",
+          "text": "The tracing can be dismissed if the heart rate is normal"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Reciprocal inferior changes may be minimal or absent, particularly when high lateral leads are not involved. Evaluate the regional ST pattern, serial ECGs and symptoms; do not use absent reciprocal change as a rule-out test.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Anterior Myocardial Infarction — LITFL",
+            "url": "https://litfl.com/anterior-myocardial-infarction-ecg-library/",
+            "quote": "may be minimal or absent in anterior STEMIs that do …",
+            "accessedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ecg-expanded-34",
+      "topic": "ECG",
+      "subtopic": "ACS complications",
+      "type": "mcq",
+      "stem": "A patient with a suspected STEMI becomes hypotensive and develops pulmonary oedema. What is the most concerning interpretation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pain resolution would make the ECG irrelevant"
+        },
+        {
+          "id": "B",
+          "text": "Evolving cardiac failure with possible cardiogenic shock requiring urgent escalation"
+        },
+        {
+          "id": "C",
+          "text": "A narrow QRS proves the pump function is preserved"
+        },
+        {
+          "id": "D",
+          "text": "Pulmonary oedema excludes acute coronary syndrome"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "ACS can be complicated by cardiac failure and cardiogenic shock. Hypotension with pulmonary oedema is a dangerous perfusion and pump-failure presentation, requiring reassessment, monitoring and urgent scope-appropriate escalation.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "QAS CPG: Acute coronary syndrome (June 2026)",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0022/219019/CPG_Acute-coronary-syndrome.pdf",
+            "quote": "Complications of ACS include arrhythmia, cardiac failure,",
+            "accessedAt": "2026-10-13"
+          },
+          {
+            "title": "QAS CPG: Cardiac arrhythmias (September 2024)",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0026/308717/CPG_Cardiac-arrhythmias.pdf",
+            "quote": "Unstable tachyarrhythmias precipitate clinical symptoms such as hypotension, an altered …",
+            "accessedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ecg-expanded-35",
+      "topic": "ECG",
+      "subtopic": "Hyperkalaemia",
+      "type": "mcq",
+      "stem": "Which combination of ECG changes most strongly raises suspicion for potassium toxicity?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inferior ST elevation with reciprocal aVL depression"
+        },
+        {
+          "id": "B",
+          "text": "Repetitive saw-tooth waves with a narrow QRS"
+        },
+        {
+          "id": "C",
+          "text": "Tall peaked T waves, flattening P waves, PR prolongation and widening QRS"
+        },
+        {
+          "id": "D",
+          "text": "Progressive PR lengthening followed by an otherwise isolated dropped beat"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Hyperkalaemia may alter repolarisation and conduction, producing peaked T waves, diminished P waves, PR prolongation and QRS widening. These are recognised patterns, not a compulsory fixed sequence.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Hyperkalaemia ECG changes — LITFL",
+            "url": "https://litfl.com/hyperkalaemia-ecg-library/",
+            "quote": "Peaked T waves P wave widening/flattening, PR prolongation",
+            "accessedAt": "2026-10-13"
+          },
+          {
+            "title": "QAS CPG: Hyperkalaemia (January 2020; linked official document)",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0025/219049/cpg_hyperkalaemia.pdf",
+            "quote": "although not all patients will progress through this pattern.",
+            "accessedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ecg-expanded-36",
+      "topic": "ECG",
+      "subtopic": "Hyperkalaemia",
+      "type": "mcq",
+      "stem": "A new bradyarrhythmia and widening QRS are found in a patient who missed haemodialysis. Which additional cause deserves urgent consideration?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Isolated respiratory sinus arrhythmia"
+        },
+        {
+          "id": "B",
+          "text": "Typical 4:1 atrial flutter"
+        },
+        {
+          "id": "C",
+          "text": "Benign early repolarisation as the only explanation"
+        },
+        {
+          "id": "D",
+          "text": "Hyperkalaemia"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Renal failure and haemodialysis increase the clinical suspicion for hyperkalaemia. A new bradyarrhythmia or conduction block in this context is concerning and warrants urgent assessment and current guideline-directed care.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Hyperkalaemia ECG changes — LITFL",
+            "url": "https://litfl.com/hyperkalaemia-ecg-library/",
+            "quote": "especially patients with renal failure, on haemodialysis,",
+            "accessedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ecg-expanded-37",
+      "topic": "ECG",
+      "subtopic": "Hyperkalaemia",
+      "type": "mcq",
+      "stem": "A patient at high risk of severe hyperkalaemia has a relatively normal-looking ECG. Which statement is safest?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A relatively normal ECG does not reliably exclude dangerous hyperkalaemia"
+        },
+        {
+          "id": "B",
+          "text": "A normal QRS proves potassium is below 5.5 mmol/L"
+        },
+        {
+          "id": "C",
+          "text": "Hyperkalaemia is excluded unless a sine wave is present"
+        },
+        {
+          "id": "D",
+          "text": "Peaked T waves must appear before any clinical deterioration"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The ECG does not reliably quantify potassium or rule out severe hyperkalaemia. Dangerous deterioration can occur without the full classic ECG pattern; use clinical risk, laboratory assessment and guideline-directed care.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Hyperkalaemia ECG changes — LITFL",
+            "url": "https://litfl.com/hyperkalaemia-ecg-library/",
+            "quote": "Patients with a relatively normal ECG can suffer sudden hyperkalaemia …",
+            "accessedAt": "2026-10-13"
+          },
+          {
+            "title": "QAS CPG: Hyperkalaemia (January 2020; linked official document)",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0025/219049/cpg_hyperkalaemia.pdf",
+            "quote": "although not all patients will progress through this pattern.",
+            "accessedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ecg-expanded-38",
+      "topic": "ECG",
+      "subtopic": "Hyperkalaemia",
+      "type": "mcq",
+      "stem": "A high-risk patient develops markedly widened complexes merging with T waves into a sine-wave appearance. What is the key implication?",
+      "options": [
+        {
+          "id": "A",
+          "text": "This establishes uncomplicated sinus tachycardia"
+        },
+        {
+          "id": "B",
+          "text": "A potentially pre-terminal conduction disturbance requiring urgent monitored care"
+        },
+        {
+          "id": "C",
+          "text": "This is the typical baseline of atrial flutter"
+        },
+        {
+          "id": "D",
+          "text": "This proves isolated lateral coronary occlusion"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A sine-wave pattern can occur with advanced potassium toxicity and is associated with imminent life-threatening arrhythmia or cardiac arrest. It is a time-critical finding; follow current QAS guidance and escalate promptly.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Hyperkalaemia ECG changes — LITFL",
+            "url": "https://litfl.com/hyperkalaemia-ecg-library/",
+            "quote": "Development of sine wave appearance (pre-terminal rhythm)",
+            "accessedAt": "2026-10-13"
+          },
+          {
+            "title": "QAS CPG: Hyperkalaemia (January 2020; linked official document)",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0025/219049/cpg_hyperkalaemia.pdf",
+            "quote": "although not all patients will progress through this pattern.",
+            "accessedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ecg-expanded-39",
+      "topic": "ECG",
+      "subtopic": "Hyperkalaemia",
+      "type": "mcq",
+      "stem": "Which statement best describes the relationship between potassium concentration and the ECG?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Every patient follows the same T-wave-to-sine-wave sequence"
+        },
+        {
+          "id": "B",
+          "text": "The ECG gives an exact potassium concentration"
+        },
+        {
+          "id": "C",
+          "text": "ECG changes and potassium concentration do not correlate closely enough to rely on a fixed progression"
+        },
+        {
+          "id": "D",
+          "text": "A single normal P wave excludes hyperkalaemia"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Classical changes help recognition, but their appearance and order vary. QAS explicitly notes that not all patients progress through the illustrated pattern, and a normal-looking ECG cannot exclude dangerous potassium toxicity.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Hyperkalaemia ECG changes — LITFL",
+            "url": "https://litfl.com/hyperkalaemia-ecg-library/",
+            "quote": "Patients with a relatively normal ECG can suffer sudden hyperkalaemia …",
+            "accessedAt": "2026-10-13"
+          },
+          {
+            "title": "QAS CPG: Hyperkalaemia (January 2020; linked official document)",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0025/219049/cpg_hyperkalaemia.pdf",
+            "quote": "although not all patients will progress through this pattern.",
+            "accessedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ecg-expanded-40",
+      "topic": "ECG",
+      "subtopic": "Torsades de pointes",
+      "type": "mcq",
+      "stem": "A polymorphic broad-complex tachycardia appears to twist around the baseline. The preceding ECG shows a prolonged QT interval. Which diagnosis is best supported?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Monomorphic VT"
+        },
+        {
+          "id": "B",
+          "text": "Atrial flutter with 2:1 conduction"
+        },
+        {
+          "id": "C",
+          "text": "AF with controlled response"
+        },
+        {
+          "id": "D",
+          "text": "Torsades de pointes"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Torsades is a form of polymorphic VT occurring in the setting of QT prolongation. The twisting morphology and preceding prolonged QT support the diagnosis; polymorphic VT alone is not sufficient.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Polymorphic VT and Torsades de Pointes — LITFL",
+            "url": "https://litfl.com/polymorphic-vt-and-torsades-de-pointes-tdp/",
+            "quote": "For TdP to be diagnosed, the patient must have evidence …",
+            "accessedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ecg-expanded-41",
+      "topic": "ECG",
+      "subtopic": "Polymorphic VT",
+      "type": "mcq",
+      "stem": "A patient has polymorphic VT during acute myocardial ischaemia. A clearly measured preceding QT interval is normal. Which label is most accurate from that information?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Polymorphic VT; torsades is not established without QT prolongation"
+        },
+        {
+          "id": "B",
+          "text": "Torsades because all polymorphic VT is torsades"
+        },
+        {
+          "id": "C",
+          "text": "Monomorphic VT because ischaemia is present"
+        },
+        {
+          "id": "D",
+          "text": "Atrial fibrillation because the complexes vary"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Polymorphic VT is a broader category. Torsades specifically requires the long-QT context; myocardial ischaemia can produce polymorphic VT without QT prolongation. All sustained VT requires urgent clinical assessment.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Polymorphic VT and Torsades de Pointes — LITFL",
+            "url": "https://litfl.com/polymorphic-vt-and-torsades-de-pointes-tdp/",
+            "quote": "For TdP to be diagnosed, the patient must have evidence …",
+            "accessedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ecg-expanded-42",
+      "topic": "ECG",
+      "subtopic": "Torsades risk",
+      "type": "mcq",
+      "stem": "A patient with a prolonged QT has recently started a QT-prolonging medicine and now has hypokalaemia. Which statement is most accurate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The two factors cancel each other out"
+        },
+        {
+          "id": "B",
+          "text": "Drug effects and electrolyte abnormalities can combine to increase torsades risk"
+        },
+        {
+          "id": "C",
+          "text": "Hypokalaemia excludes torsades"
+        },
+        {
+          "id": "D",
+          "text": "A prolonged QT is relevant only during tachycardia"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "QT-prolonging medicines and electrolyte abnormalities may combine to increase torsades risk. Review causes and seek guideline-directed clinical assessment; torsades can cause haemodynamic collapse or degenerate into VF.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Polymorphic VT and Torsades de Pointes — LITFL",
+            "url": "https://litfl.com/polymorphic-vt-and-torsades-de-pointes-tdp/",
+            "quote": "QT prolongation may occur secondary to multiple drug effects, electrolyte …",
+            "accessedAt": "2026-10-13"
+          },
+          {
+            "title": "Polymorphic VT and Torsades de Pointes — LITFL",
+            "url": "https://litfl.com/polymorphic-vt-and-torsades-de-pointes-tdp/",
+            "quote": "TdP may also degenerate into ventricular fibrillation (VF)",
+            "accessedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ecg-expanded-43",
+      "topic": "ECG",
+      "subtopic": "Wellens pattern",
+      "type": "mcq",
+      "stem": "A patient is pain-free after recent ischaemic chest pain. The ECG shows deeply symmetric anterior T-wave inversion with minimal ST shift, preserved R-wave progression and no precordial Q waves. What is the most concerning interpretation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pain relief proves there is no coronary risk"
+        },
+        {
+          "id": "B",
+          "text": "The pattern is diagnostic of electrolyte depletion alone"
+        },
+        {
+          "id": "C",
+          "text": "A Wellens pattern suggesting high-risk anterior coronary disease"
+        },
+        {
+          "id": "D",
+          "text": "Normal sinus rhythm makes the ST–T changes benign"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "This clinical and ECG combination is consistent with a Wellens pattern. It can appear while pain-free and signals important LAD-territory coronary disease; pain relief or minimally raised biomarkers do not remove the risk. T-wave inversion alone is not diagnostic.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Wellens Syndrome — LITFL",
+            "url": "https://litfl.com/wellens-syndrome-ecg-library/",
+            "quote": "Deeply inverted or biphasic T waves in V2-3 (may extend …",
+            "accessedAt": "2026-10-13"
+          },
+          {
+            "title": "Wellens Syndrome — LITFL",
+            "url": "https://litfl.com/wellens-syndrome-ecg-library/",
+            "quote": "ECG pattern present in pain-free state",
+            "accessedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ecg-expanded-44",
+      "topic": "ECG",
+      "subtopic": "De Winter pattern",
+      "type": "mcq",
+      "stem": "Ongoing ischaemic chest pain accompanies upsloping precordial ST depression, tall symmetrical T waves and slight aVR ST elevation. There is no classic precordial ST elevation. Which response is best?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Exclude coronary occlusion because the ST segment is not elevated"
+        },
+        {
+          "id": "B",
+          "text": "Classify it as AF from the T-wave height"
+        },
+        {
+          "id": "C",
+          "text": "Treat it as confirmed hyperkalaemia without further assessment"
+        },
+        {
+          "id": "D",
+          "text": "Recognise a possible De Winter occlusion pattern and urgently transmit the ECG and seek QAS reperfusion decision support"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "De Winter is a high-risk coronary occlusion pattern that may lack classic precordial ST elevation. Current QAS guidance includes it among STEMI equivalents; ECG transmission and clinical consultation are required for reperfusion decision support. The pattern alone does not authorise thrombolysis.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "De Winter T Wave — LITFL",
+            "url": "https://litfl.com/de-winter-t-wave-ecg-library/",
+            "quote": "Upsloping ST segment depression > 1mm at the J point …",
+            "accessedAt": "2026-10-13"
+          },
+          {
+            "title": "QAS CPP: 12-Lead ECG acquisition and interpretation (June 2026)",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0033/475791/CPP_12-Lead-ECG-acquisition-and-interpretation.pdf",
+            "quote": "Upsloping ST-depression equal to or greater than 1 mm in …",
+            "accessedAt": "2026-10-13"
+          },
+          {
+            "title": "QAS CPP: Pre-hospital cardiac reperfusion (October 2026)",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0029/308765/CPP_Pre-hospital-cardiac-reperfusion.pdf",
+            "quote": "If STEMI equivalent is identified, ALL clinicians must email or",
+            "accessedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ecg-expanded-45",
+      "topic": "ECG",
+      "subtopic": "Posterior infarction",
+      "type": "mcq",
+      "stem": "An ischaemic patient has ST depression in V1–V3 and suspected posterior involvement. Which added lead set directly examines the posterior wall?",
+      "options": [
+        {
+          "id": "A",
+          "text": "V7, V8 and V9"
+        },
+        {
+          "id": "B",
+          "text": "I, aVL and V6 only"
+        },
+        {
+          "id": "C",
+          "text": "II, III and aVF only"
+        },
+        {
+          "id": "D",
+          "text": "aVR and V1 only"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Posterior leads V7–V9 directly examine posterior myocardial injury. Anterior ST depression can be reciprocal to posterior elevation, but the full ECG and clinical context are required; follow QAS acquisition and consultation guidance.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "QAS CPP: 12-Lead ECG acquisition and interpretation (June 2026)",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0033/475791/CPP_12-Lead-ECG-acquisition-and-interpretation.pdf",
+            "quote": "ST-elevation equal to or greater than 0.5 mm in at …",
+            "accessedAt": "2026-10-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pharm-expanded-01",
+      "topic": "Pharmacology",
+      "subtopic": "Aspirin mechanism",
+      "type": "mcq",
+      "stem": "Why does aspirin have a prolonged antiplatelet effect after a single dose?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It directly dissolves a coronary clot."
+        },
+        {
+          "id": "B",
+          "text": "It irreversibly inhibits platelet cyclo-oxygenase, reducing thromboxane A2 for the life of the platelet."
+        },
+        {
+          "id": "C",
+          "text": "It temporarily blocks beta-1 receptors until the drug is excreted."
+        },
+        {
+          "id": "D",
+          "text": "It increases platelet aggregation while the patient is resting."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "QAS describes irreversible cyclo-oxygenase inhibition and reduced thromboxane A2 synthesis for the platelet’s life. Antiplatelet action is different from thrombolysis.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Drug Therapy Protocols: Aspirin — August 2025",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0018/219321/DTP_Aspirin.pdf#page=2",
+            "quote": "Aspirin inhibits platelet aggregation by irreversibly inhibiting cyclo-oxygenase, reducing the …",
+            "accessedAt": "2026-10-13",
+            "page": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "pharm-expanded-02",
+      "topic": "Pharmacology",
+      "subtopic": "Aspirin and pain-free ACS",
+      "type": "mcq",
+      "stem": "A 61-year-old with suspected ACS is now pain-free. There are no aspirin contraindications and they have taken no aspirin in the previous 24 hours. Under the QAS DTP, which is appropriate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Withhold aspirin because chest pain has resolved."
+        },
+        {
+          "id": "B",
+          "text": "Give aspirin only if ST elevation is present."
+        },
+        {
+          "id": "C",
+          "text": "Administer 300 mg aspirin chewed, followed by a small sip of water where possible."
+        },
+        {
+          "id": "D",
+          "text": "Administer 30 mg aspirin intravenously."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The QAS indication includes suspected ACS even when pain-free. The authorised adult oral dose is 300 mg chewed. Check contraindications and previous doses; the DTP states aspirin follows initial GTN if GTN is indicated.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Drug Therapy Protocols: Aspirin — August 2025",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0018/219321/DTP_Aspirin.pdf#page=3",
+            "quote": "Aspirin administration is indicated for patients with suspected ACS or …",
+            "accessedAt": "2026-10-13",
+            "page": 3
+          },
+          {
+            "title": "Drug Therapy Protocols: Aspirin — August 2025",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0018/219321/DTP_Aspirin.pdf#page=3",
+            "quote": "≥ 18 years – 300 mg Chewed and followed by …",
+            "accessedAt": "2026-10-13",
+            "page": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "pharm-expanded-03",
+      "topic": "Pharmacology",
+      "subtopic": "Aspirin age restriction",
+      "type": "mcq",
+      "stem": "Which patient falls outside the QAS authorised aspirin age range?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A 17-year-old with suspected ACS."
+        },
+        {
+          "id": "B",
+          "text": "A 45-year-old with suspected ACS."
+        },
+        {
+          "id": "C",
+          "text": "A 68-year-old with suspected ACS."
+        },
+        {
+          "id": "D",
+          "text": "A 72-year-old with acute cardiogenic pulmonary oedema."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The aspirin DTP lists patients under 18 as a contraindication and explicitly says QAS officers are not authorised to administer aspirin to that group.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Drug Therapy Protocols: Aspirin — August 2025",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0018/219321/DTP_Aspirin.pdf#page=2",
+            "quote": "Contraindications • Allergy AND/OR Adverse Drug Reaction to aspirin OR …",
+            "accessedAt": "2026-10-13",
+            "page": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "pharm-expanded-04",
+      "topic": "Pharmacology",
+      "subtopic": "Aspirin precautions",
+      "type": "mcq",
+      "stem": "Which distinction matches the QAS aspirin DTP?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Current GI bleeding and concurrent anticoagulant therapy are both harmless."
+        },
+        {
+          "id": "B",
+          "text": "Concurrent warfarin is an absolute contraindication; current GI bleeding is only a precaution."
+        },
+        {
+          "id": "C",
+          "text": "A history of GI bleeding is identical to current GI bleeding."
+        },
+        {
+          "id": "D",
+          "text": "Current GI bleeding is a contraindication; concurrent anticoagulant therapy is a precaution."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "QAS distinguishes current GI bleeding/peptic ulcers from history of GI bleeding and concurrent anticoagulants. The latter are precautions requiring assessment rather than being automatically relabelled as absolute contraindications.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Drug Therapy Protocols: Aspirin — August 2025",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0018/219321/DTP_Aspirin.pdf#page=2",
+            "quote": "Contraindications • Allergy AND/OR Adverse Drug Reaction to aspirin OR …",
+            "accessedAt": "2026-10-13",
+            "page": 2
+          },
+          {
+            "title": "Drug Therapy Protocols: Aspirin — August 2025",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0018/219321/DTP_Aspirin.pdf#page=2",
+            "quote": "Precautions • Possible aortic aneurysm or any other condition that …",
+            "accessedAt": "2026-10-13",
+            "page": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "pharm-expanded-05",
+      "topic": "Pharmacology",
+      "subtopic": "GTN mechanism",
+      "type": "mcq",
+      "stem": "How does glyceryl trinitrate reduce cardiac preload?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It increases peripheral venous capacity and venous pooling, reducing ventricular filling pressure."
+        },
+        {
+          "id": "B",
+          "text": "It causes irreversible platelet inhibition."
+        },
+        {
+          "id": "C",
+          "text": "It directly antagonises opioid receptors."
+        },
+        {
+          "id": "D",
+          "text": "It draws potassium into cells by stimulating the sodium/potassium pump."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "QAS describes increased venous capacity and peripheral pooling, with reduced ventricular filling pressure. It also describes decreased arterial pressure/afterload.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Drug Therapy Protocols: Glyceryl trinitrate — June 2026",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0027/219339/DTP_Glyceryl-trinitrate.pdf#page=2",
+            "quote": "Glyceryl trinitrate (GTN) is a potent vasodilator that decreases preload …",
+            "accessedAt": "2026-10-13",
+            "page": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "pharm-expanded-06",
+      "topic": "Pharmacology",
+      "subtopic": "GTN contraindications",
+      "type": "mcq",
+      "stem": "An adult with ongoing suspected ACS pain has heart rate 82/min and systolic BP 94 mmHg. Which QAS GTN rule matters most before sublingual administration?",
+      "options": [
+        {
+          "id": "A",
+          "text": "BP is irrelevant when ACS is suspected."
+        },
+        {
+          "id": "B",
+          "text": "Systolic BP below 100 mmHg is a listed contraindication."
+        },
+        {
+          "id": "C",
+          "text": "GTN is contraindicated only when BP is below 60 mmHg."
+        },
+        {
+          "id": "D",
+          "text": "The dose should be doubled because perfusion is low."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The current QAS GTN DTP lists systolic BP <100 mmHg as a contraindication. ACS symptoms do not erase the haemodynamic check.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Drug Therapy Protocols: Glyceryl trinitrate — June 2026",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0027/219339/DTP_Glyceryl-trinitrate.pdf#page=2",
+            "quote": "Allergy AND/OR Adverse Drug Reaction • Heart rate < 50 …",
+            "accessedAt": "2026-10-13",
+            "page": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "pharm-expanded-07",
+      "topic": "Pharmacology",
+      "subtopic": "GTN and PDE5 inhibitors",
+      "type": "mcq",
+      "stem": "Which recent medication history is a listed QAS contraindication to GTN?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sildenafil taken seven days ago."
+        },
+        {
+          "id": "B",
+          "text": "Paracetamol taken yesterday."
+        },
+        {
+          "id": "C",
+          "text": "Tadalafil taken within the previous 48 hours."
+        },
+        {
+          "id": "D",
+          "text": "Salbutamol MDI taken earlier today."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "QAS lists sildenafil or vardenafil within 24 hours and tadalafil within 48 hours as contraindications. More remote PDE5-inhibitor use is separately listed as a precaution in the DTP.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Drug Therapy Protocols: Glyceryl trinitrate — June 2026",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0027/219339/DTP_Glyceryl-trinitrate.pdf#page=2",
+            "quote": "Allergy AND/OR Adverse Drug Reaction • Heart rate < 50 …",
+            "accessedAt": "2026-10-13",
+            "page": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "pharm-expanded-08",
+      "topic": "Pharmacology",
+      "subtopic": "ACP2 sublingual GTN",
+      "type": "mcq",
+      "stem": "For an adult with suspected ACS pain who meets the QAS indication and has no GTN contraindications, what ACP2 sublingual regimen is listed?",
+      "options": [
+        {
+          "id": "A",
+          "text": "400 micrograms, with reassessment and repeat at 5-minute intervals."
+        },
+        {
+          "id": "B",
+          "text": "4 mg, repeated every minute."
+        },
+        {
+          "id": "C",
+          "text": "40 micrograms, with no repeat dose."
+        },
+        {
+          "id": "D",
+          "text": "400 mg, repeated hourly."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The adult suspected-ACS-pain table lists 400 micrograms sublingually, repeated at 5-minute intervals. Continued administration still requires reassessment and compliance with contraindications. This question concerns sublingual ACP2 treatment, not an IV infusion protocol.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Drug Therapy Protocols: Glyceryl trinitrate — June 2026",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0027/219339/DTP_Glyceryl-trinitrate.pdf#page=4",
+            "quote": "Suspected ACS (with pain) 400 microg Repeated at 5 minute …",
+            "accessedAt": "2026-10-13",
+            "page": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "pharm-expanded-09",
+      "topic": "Pharmacology",
+      "subtopic": "Salbutamol potassium effect",
+      "type": "mcq",
+      "stem": "Why can salbutamol lower serum potassium?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It irreversibly binds potassium in the stomach."
+        },
+        {
+          "id": "B",
+          "text": "It removes potassium through platelet inhibition."
+        },
+        {
+          "id": "C",
+          "text": "It blocks all sodium channels in the myocardium."
+        },
+        {
+          "id": "D",
+          "text": "It stimulates the sodium/potassium ATPase pump and shifts potassium into cells."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The DTP attributes potassium reduction to stimulation of the sodium/potassium ATPase pump. A cellular shift is different from removal of potassium from the body.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Drug Therapy Protocols: Salbutamol — August 2025",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0024/219372/DTP_Salbutamol.pdf#page=2",
+            "quote": "Salbutamol is a direct acting sympathomimetic agent which mainly affects …",
+            "accessedAt": "2026-10-13",
+            "page": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "pharm-expanded-10",
+      "topic": "Pharmacology",
+      "subtopic": "Salbutamol formulation choice",
+      "type": "mcq",
+      "stem": "When clinically appropriate for bronchospasm, which formulation does QAS prefer and why?",
+      "options": [
+        {
+          "id": "A",
+          "text": "IV nebuliser solution, because all formulations are interchangeable."
+        },
+        {
+          "id": "B",
+          "text": "A metered dose inhaler, which reduces aerosolisation and salbutamol side effects compared with nebulisation."
+        },
+        {
+          "id": "C",
+          "text": "A swallowed nebule, to prevent aerosolisation."
+        },
+        {
+          "id": "D",
+          "text": "A nebuliser in every case, regardless of ability to use an MDI."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "QAS recommends an MDI where clinically appropriate, citing lower aerosolisation/exposure to respiratory viruses and fewer salbutamol side effects.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Drug Therapy Protocols: Salbutamol — August 2025",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0024/219372/DTP_Salbutamol.pdf#page=3",
+            "quote": "Salbutamol Metered Dose Inhalers (MDIs) are the preferred formulation for …",
+            "accessedAt": "2026-10-13",
+            "page": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "pharm-expanded-11",
+      "topic": "Pharmacology",
+      "subtopic": "Salbutamol formulation safety",
+      "type": "mcq",
+      "stem": "Why must nebulised salbutamol solution not be substituted for the IV preparation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Nebulised salbutamol always contains no active drug."
+        },
+        {
+          "id": "B",
+          "text": "The same concentration guarantees the same authorised route."
+        },
+        {
+          "id": "C",
+          "text": "Different preparations are used; IV administration of nebuliser solution can cause serious adverse effects."
+        },
+        {
+          "id": "D",
+          "text": "Only the colour of the packaging matters."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The DTP explicitly warns that nebulised and IV preparations differ. Concentration arithmetic cannot establish route suitability or authorisation.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Drug Therapy Protocols: Salbutamol — August 2025",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0024/219372/DTP_Salbutamol.pdf#page=3",
+            "quote": "Different preparations of salbutamol are used for nebulised and IV …",
+            "accessedAt": "2026-10-13",
+            "page": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "pharm-expanded-12",
+      "topic": "Pharmacology",
+      "subtopic": "Ipratropium mechanism",
+      "type": "mcq",
+      "stem": "Which mechanism explains ipratropium bronchodilation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Irreversible cyclo-oxygenase inhibition."
+        },
+        {
+          "id": "B",
+          "text": "Increased opioid receptor stimulation."
+        },
+        {
+          "id": "C",
+          "text": "Direct clot dissolution."
+        },
+        {
+          "id": "D",
+          "text": "Antimuscarinic action that inhibits cholinergic bronchomotor tone."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "QAS classifies ipratropium as an anticholinergic/antimuscarinic bronchodilator. This differs from the beta-adrenergic mechanism of salbutamol.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Drug Therapy Protocols: Ipratropium bromide — July 2022",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0027/219348/dtp_ipratropium-bromide.pdf#page=2",
+            "quote": "Ipratropium bromide is an antimuscarinic agent which promotes bronchodilation by …",
+            "accessedAt": "2026-10-13",
+            "page": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "pharm-expanded-13",
+      "topic": "Pharmacology",
+      "subtopic": "Ipratropium combination",
+      "type": "mcq",
+      "stem": "An adult meets the QAS nebulised ipratropium indication. Which administration statement is correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Give it with nebulised salbutamol; the solutions may be mixed in the same nebuliser."
+        },
+        {
+          "id": "B",
+          "text": "Give it alone because salbutamol prevents its action."
+        },
+        {
+          "id": "C",
+          "text": "Inject the nebule intravenously."
+        },
+        {
+          "id": "D",
+          "text": "Use it only after all salbutamol has been stopped."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "QAS says nebulised ipratropium must not be given in isolation and must be administered with nebulised salbutamol. The two solutions may share the same nebuliser mask.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Drug Therapy Protocols: Ipratropium bromide — July 2022",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0027/219348/dtp_ipratropium-bromide.pdf#page=3",
+            "quote": "Nebulised ipratropium bromide must not be administered in isolation. It …",
+            "accessedAt": "2026-10-13",
+            "page": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "pharm-expanded-14",
+      "topic": "Pharmacology",
+      "subtopic": "Ipratropium adult regimen",
+      "type": "mcq",
+      "stem": "Which is the listed adult QAS nebulised ipratropium regimen for its authorised bronchospasm indication?",
+      "options": [
+        {
+          "id": "A",
+          "text": "250 mg every 5 minutes, maximum 750 mg."
+        },
+        {
+          "id": "B",
+          "text": "500 micrograms, repeated at 20-minute intervals to a total maximum of 1.5 mg."
+        },
+        {
+          "id": "C",
+          "text": "500 mg once, with no reassessment."
+        },
+        {
+          "id": "D",
+          "text": "5 micrograms every hour, maximum 15 micrograms."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The adult dose is 500 micrograms. Three such doses total 1500 micrograms = 1.5 mg; repeats occur at 20-minute intervals. These units must not be confused with milligrams.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Drug Therapy Protocols: Ipratropium bromide — July 2022",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0027/219348/dtp_ipratropium-bromide.pdf#page=3",
+            "quote": "500 microg Repeated at 20 minute intervals. Total maximum dose …",
+            "accessedAt": "2026-10-13",
+            "page": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "pharm-expanded-15",
+      "topic": "Pharmacology",
+      "subtopic": "Narcotic choice and renal disease",
+      "type": "mcq",
+      "stem": "An adult has significant pain, haemodynamic instability and known kidney disease. Which QAS statement supports fentanyl selection rather than routine morphine preference?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Morphine preference has no exceptions."
+        },
+        {
+          "id": "B",
+          "text": "Fentanyl has no respiratory or circulatory effects."
+        },
+        {
+          "id": "C",
+          "text": "Haemodynamic instability and known/suspected kidney disease are documented exceptions to morphine preference."
+        },
+        {
+          "id": "D",
+          "text": "Kidney disease makes all analgesia automatically prohibited."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The fentanyl DTP documents those exceptions, and the morphine DTP lists kidney disease/renal failure as a contraindication. Fentanyl still needs careful dose selection and monitoring because hypotension and respiratory depression remain risks.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Drug Therapy Protocols: Fentanyl — July 2022",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0021/219333/dtp_fentanyl.pdf#page=2",
+            "quote": "NOTE: Morphine is the preferred narcotic agent except under the …",
+            "accessedAt": "2026-10-13",
+            "page": 2
+          },
+          {
+            "title": "Drug Therapy Protocols: Morphine — July 2022",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0023/219362/dtp_morphine.pdf#page=2",
+            "quote": "Contraindications • Allergy AND/OR Adverse Drug Reaction • Kidney disease …",
+            "accessedAt": "2026-10-13",
+            "page": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "pharm-expanded-16",
+      "topic": "Pharmacology",
+      "subtopic": "Fentanyl with hypotension",
+      "type": "mcq",
+      "stem": "A hypotensive adult receiving ACP2 IV fentanyl remains at BP 84/52 mmHg. Which precaution matches the QAS special notes?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Give 100 micrograms per incremental IV dose without monitoring."
+        },
+        {
+          "id": "B",
+          "text": "Give unlimited 50-microgram increments because it is fentanyl."
+        },
+        {
+          "id": "C",
+          "text": "Call for backup only if the patient becomes apnoeic."
+        },
+        {
+          "id": "D",
+          "text": "Keep each incremental IV dose no greater than 25 micrograms and request CCP backup where available."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The special notes cap incremental IV fentanyl at 25 micrograms in hypotensive adult patients and require CCP backup where available. The limit is an incremental-dose limit, not a licence to ignore cumulative dosing or respiratory assessment.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Drug Therapy Protocols: Fentanyl — July 2022",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0021/219333/dtp_fentanyl.pdf#page=3",
+            "quote": "When fentanyl is administered to a hypotensive patient, ACPs must …",
+            "accessedAt": "2026-10-13",
+            "page": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "pharm-expanded-17",
+      "topic": "Calculations",
+      "subtopic": "Combined opioid accounting",
+      "type": "mcq",
+      "stem": "A calculation exercise uses the QAS equivalence 100 micrograms fentanyl = 10 mg morphine milligram equivalent (MME). What combined MME has been given after 5 mg morphine plus 50 micrograms fentanyl?",
+      "options": [
+        {
+          "id": "A",
+          "text": "10 mg MME."
+        },
+        {
+          "id": "B",
+          "text": "5 mg MME."
+        },
+        {
+          "id": "C",
+          "text": "55 mg MME."
+        },
+        {
+          "id": "D",
+          "text": "15 mg MME."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "50 micrograms fentanyl × (10 mg MME / 100 micrograms fentanyl) = 5 mg MME. Add the 5 mg morphine to obtain 10 mg MME. QAS requires combined opioid accounting rather than separate independent maximums.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Drug Therapy Protocols: Fentanyl — July 2022",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0021/219333/dtp_fentanyl.pdf#page=3",
+            "quote": "A Morphine Milligram Equivalent (MME) dose of fentanyl can be …",
+            "accessedAt": "2026-10-13",
+            "page": 3
+          },
+          {
+            "title": "Drug Therapy Protocols: Fentanyl — July 2022",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0021/219333/dtp_fentanyl.pdf#page=3",
+            "quote": "In the rare situation when combined narcotic (morphine AND fentanyl) …",
+            "accessedAt": "2026-10-13",
+            "page": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "pharm-expanded-18",
+      "topic": "Pharmacology",
+      "subtopic": "Morphine renal contraindication",
+      "type": "mcq",
+      "stem": "Which condition is listed as a contraindication, rather than only a precaution, in the QAS morphine DTP?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hypotension."
+        },
+        {
+          "id": "B",
+          "text": "Kidney disease/renal failure."
+        },
+        {
+          "id": "C",
+          "text": "Concurrent MAOI therapy."
+        },
+        {
+          "id": "D",
+          "text": "Cardiac chest pain."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The DTP lists kidney disease/renal failure under contraindications. The other choices appear under precautions. This classification helps explain opioid selection without implying fentanyl is risk-free.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Drug Therapy Protocols: Morphine — July 2022",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0023/219362/dtp_morphine.pdf#page=2",
+            "quote": "Contraindications • Allergy AND/OR Adverse Drug Reaction • Kidney disease …",
+            "accessedAt": "2026-10-13",
+            "page": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "pharm-expanded-19",
+      "topic": "Pharmacology",
+      "subtopic": "Fentanyl consultation",
+      "type": "mcq",
+      "stem": "For ACP2 subcutaneous fentanyl, what does the QAS adult dose table require?",
+      "options": [
+        {
+          "id": "A",
+          "text": "No consultation if the patient is under 70."
+        },
+        {
+          "id": "B",
+          "text": "Consultation only after a second dose."
+        },
+        {
+          "id": "C",
+          "text": "QAS Clinical Consultation and Advice Line approval in all situations."
+        },
+        {
+          "id": "D",
+          "text": "Use of a CCP no-maximum-dose regimen without approval."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The subcutaneous entry expressly requires approval in all situations. Do not import unrestricted CCP dose rows into ACP2 practice.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Drug Therapy Protocols: Fentanyl — July 2022",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0021/219333/dtp_fentanyl.pdf#page=4",
+            "quote": "SUBCUT QAS Clinical Consultation and Advice Line approval required in …",
+            "accessedAt": "2026-10-13",
+            "page": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "pharm-expanded-20",
+      "topic": "Pharmacology",
+      "subtopic": "Droperidol indication threshold",
+      "type": "mcq",
+      "stem": "Which combination meets all three QAS droperidol emergency-sedation indication criteria?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Verbal disagreement, SAT +1, and staff inconvenience."
+        },
+        {
+          "id": "B",
+          "text": "Intoxication alone, whatever the SAT score."
+        },
+        {
+          "id": "C",
+          "text": "SAT +2 alone without an assessment of harm or response to de-escalation."
+        },
+        {
+          "id": "D",
+          "text": "Failed de-escalation, SAT score ≥2, and emergency sedation needed to prevent harm to self or others."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The indication is conjunctive: every listed criterion must be met. A SAT score or suspected intoxication alone is not the entire indication.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Drug Therapy Protocols: Droperidol — March 2026",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0026/219329/DTP_Droperidol.pdf#page=2",
+            "quote": "Acute behavioural disturbance meeting all of the following criteria: - …",
+            "accessedAt": "2026-10-13",
+            "page": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "pharm-expanded-21",
+      "topic": "Pharmacology",
+      "subtopic": "Droperidol neurological exclusions",
+      "type": "mcq",
+      "stem": "Which history is an absolute QAS droperidol contraindication?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Suspected or confirmed Parkinson’s disease."
+        },
+        {
+          "id": "B",
+          "text": "Stable type 2 diabetes alone."
+        },
+        {
+          "id": "C",
+          "text": "A remote uncomplicated ankle fracture."
+        },
+        {
+          "id": "D",
+          "text": "Controlled hypertension alone."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The DTP lists Parkinson’s disease, known Lewy Body Dementia and previous droperidol dystonic reaction among absolute contraindications.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Drug Therapy Protocols: Droperidol — March 2026",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0026/219329/DTP_Droperidol.pdf#page=2",
+            "quote": "Absolute contraindication: - Allergy AND/OR Adverse Drug Reaction - Known …",
+            "accessedAt": "2026-10-13",
+            "page": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "pharm-expanded-22",
+      "topic": "Pharmacology",
+      "subtopic": "Droperidol relative contraindication",
+      "type": "mcq",
+      "stem": "A patient meets droperidol indication criteria but sepsis is suspected. What does the current QAS DTP require for this relative contraindication?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ignore sepsis if SAT is +3."
+        },
+        {
+          "id": "B",
+          "text": "Clinical Consultation and Advice Line consultation and approval."
+        },
+        {
+          "id": "C",
+          "text": "Automatically administer double the standard dose."
+        },
+        {
+          "id": "D",
+          "text": "Treat a possible infection as proof of Lewy Body Dementia."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Suspected sepsis is a relative contraindication with consultation and approval required. The DTP separately lists physical restraint with no CCP on scene as another situation requiring approval.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Drug Therapy Protocols: Droperidol — March 2026",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0026/219329/DTP_Droperidol.pdf#page=2",
+            "quote": "Relative contraindication (QAS Clinical Consultation & Advice Line consultation and …",
+            "accessedAt": "2026-10-13",
+            "page": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "pharm-expanded-23",
+      "topic": "Pharmacology",
+      "subtopic": "Droperidol adult dose and repeat",
+      "type": "mcq",
+      "stem": "A 39-year-old meets all QAS droperidol indication criteria, has no contraindications, and is being treated within the authorised ACP2 framework. Which regimen is listed?",
+      "options": [
+        {
+          "id": "A",
+          "text": "5 mg every 5 minutes without a total maximum."
+        },
+        {
+          "id": "B",
+          "text": "20 mg initially, then 20 mg every 15 minutes."
+        },
+        {
+          "id": "C",
+          "text": "10 mg IM or IV; may repeat once at 15 minutes; total maximum 20 mg."
+        },
+        {
+          "id": "D",
+          "text": "1 mg orally with an unlimited hourly repeat."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Age 39 falls in the 16 to <65-year table. IV use requires an existing cannula; an IV must not be inserted solely for droperidol. Dose, interval, route restrictions and total maximum all matter.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Drug Therapy Protocols: Droperidol — March 2026",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0026/219329/DTP_Droperidol.pdf#page=3",
+            "quote": "16 years to < 65 years – 10 mg May …",
+            "accessedAt": "2026-10-13",
+            "page": 3
+          },
+          {
+            "title": "Drug Therapy Protocols: Droperidol — March 2026",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0026/219329/DTP_Droperidol.pdf#page=4",
+            "quote": "Under no circumstances is an IV cannula to be inserted …",
+            "accessedAt": "2026-10-13",
+            "page": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "pharm-expanded-24",
+      "topic": "Pharmacology",
+      "subtopic": "Droperidol IV access restriction",
+      "type": "mcq",
+      "stem": "A patient meets droperidol sedation criteria but has no IV cannula. Which statement matches the QAS special notes?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Always insert a cannula purely to give droperidol IV."
+        },
+        {
+          "id": "B",
+          "text": "IM droperidol is never authorised."
+        },
+        {
+          "id": "C",
+          "text": "Delay all emergency assessment until an IV is inserted."
+        },
+        {
+          "id": "D",
+          "text": "Do not insert a cannula solely for droperidol; IV droperidol is only for a cannula already in situ."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The route restriction is explicit. The authorised IM route remains available when clinically appropriate and all other requirements are satisfied.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Drug Therapy Protocols: Droperidol — March 2026",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0026/219329/DTP_Droperidol.pdf#page=4",
+            "quote": "Under no circumstances is an IV cannula to be inserted …",
+            "accessedAt": "2026-10-13",
+            "page": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "pharm-expanded-25",
+      "topic": "Pharmacology",
+      "subtopic": "Ondansetron mechanism",
+      "type": "mcq",
+      "stem": "Which receptor action is responsible for ondansetron’s antiemetic effect?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Serotonin 5-HT3 receptor antagonism."
+        },
+        {
+          "id": "B",
+          "text": "Mu-opioid receptor activation."
+        },
+        {
+          "id": "C",
+          "text": "Beta-2 receptor agonism."
+        },
+        {
+          "id": "D",
+          "text": "Irreversible platelet cyclo-oxygenase inhibition."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Ondansetron blocks the action of serotonin at 5-HT3 receptors. It is not an opioid, bronchodilator or antiplatelet agent.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Drug Therapy Protocols: Ondansetron — July 2022",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0026/219365/dtp_ondansetron.pdf#page=2",
+            "quote": "Ondansetron is a serotonin 5-HT3 receptor antagonist. It works by …",
+            "accessedAt": "2026-10-13",
+            "page": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "pharm-expanded-26",
+      "topic": "Pharmacology",
+      "subtopic": "Ondansetron route choice",
+      "type": "mcq",
+      "stem": "An alert adult can tolerate an ODT and no IV access is otherwise required. Which QAS approach fits?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cannulate solely for faster ondansetron administration."
+        },
+        {
+          "id": "B",
+          "text": "Prefer ODT ondansetron unless contraindicated."
+        },
+        {
+          "id": "C",
+          "text": "Withhold all antiemetics until an IV exists."
+        },
+        {
+          "id": "D",
+          "text": "Use nebulised ondansetron."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "QAS specifies that an IV must not be inserted solely for ondansetron and that ODT should be preferred unless contraindicated. Appropriate treatment still requires an indication and checks for previous dosing and contraindications.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Drug Therapy Protocols: Ondansetron — July 2022",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0026/219365/dtp_ondansetron.pdf#page=3",
+            "quote": "Under no circumstances is an IV cannula to be inserted …",
+            "accessedAt": "2026-10-13",
+            "page": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "pharm-expanded-27",
+      "topic": "Pharmacology",
+      "subtopic": "Ondansetron cross-route dosing interval",
+      "type": "mcq",
+      "stem": "An adult took ondansetron orally 3 hours ago. Does switching to IV remove the QAS minimum interval before another dose?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Yes; each route has a separate clock."
+        },
+        {
+          "id": "B",
+          "text": "Yes; vomiting means the prior dose never counts."
+        },
+        {
+          "id": "C",
+          "text": "No; it must not be given within 8 hours of previous ondansetron administration."
+        },
+        {
+          "id": "D",
+          "text": "No; ondansetron can never be administered more than once in a lifetime."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The 8-hour restriction is expressed in terms of previous ondansetron administration, not a particular route. A change of route does not reset it.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Drug Therapy Protocols: Ondansetron — July 2022",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0026/219365/dtp_ondansetron.pdf#page=3",
+            "quote": "PO/IM 4–8 mg Total maximum dose 8 mg. Must not …",
+            "accessedAt": "2026-10-13",
+            "page": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "pharm-expanded-28",
+      "topic": "Pharmacology",
+      "subtopic": "Ondansetron contraindications",
+      "type": "mcq",
+      "stem": "Which is listed as an absolute ondansetron contraindication in the QAS DTP?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elderly age alone."
+        },
+        {
+          "id": "B",
+          "text": "Hepatic impairment alone."
+        },
+        {
+          "id": "C",
+          "text": "Intestinal obstruction alone."
+        },
+        {
+          "id": "D",
+          "text": "Congenital long QT syndrome."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Congenital long QT syndrome is an absolute contraindication; the other choices are listed as precautions. Current apomorphine therapy and age under 2 years are additional absolute contraindications.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Drug Therapy Protocols: Ondansetron — July 2022",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0026/219365/dtp_ondansetron.pdf#page=2",
+            "quote": "Absolute contraindication: - Allergy AND/OR Adverse Drug Reaction - Congenital …",
+            "accessedAt": "2026-10-13",
+            "page": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "pharm-expanded-29",
+      "topic": "Pharmacology",
+      "subtopic": "Ondansetron adult dose limits",
+      "type": "mcq",
+      "stem": "Which combination matches the QAS adult PO/IM ondansetron dose table?",
+      "options": [
+        {
+          "id": "A",
+          "text": "4–8 mg, total maximum 8 mg, and no administration within 8 hours of a previous dose."
+        },
+        {
+          "id": "B",
+          "text": "4–8 mg every hour to a maximum of 40 mg."
+        },
+        {
+          "id": "C",
+          "text": "40–80 mg with no interval restriction."
+        },
+        {
+          "id": "D",
+          "text": "0.4–0.8 micrograms once."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The table pairs a 4–8 mg adult range with an 8 mg total maximum and an 8-hour prior-dose restriction. A permitted dose range is not an unlimited repeat schedule.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Drug Therapy Protocols: Ondansetron — July 2022",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0026/219365/dtp_ondansetron.pdf#page=3",
+            "quote": "PO/IM 4–8 mg Total maximum dose 8 mg. Must not …",
+            "accessedAt": "2026-10-13",
+            "page": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "pharm-expanded-30",
+      "topic": "Pharmacology",
+      "subtopic": "Methoxyflurane renal exclusion",
+      "type": "mcq",
+      "stem": "An adult can self-administer an inhaler but has known chronic kidney disease. What QAS methoxyflurane exclusion applies?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ability to hold the inhaler removes all contraindications."
+        },
+        {
+          "id": "B",
+          "text": "Known liver or renal disease is a contraindication."
+        },
+        {
+          "id": "C",
+          "text": "Kidney disease is irrelevant to analgesia choice."
+        },
+        {
+          "id": "D",
+          "text": "Methoxyflurane is mandatory before any opioid."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The DTP lists known liver or renal disease as a contraindication. Ability to self-administer is part of the indication, not a substitute for exclusions.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Drug Therapy Protocols: Methoxyflurane — October 2025",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0028/219358/DTP_Methoxyflurane.pdf#page=2",
+            "quote": "Contraindications • Allergy AND/OR Adverse Drug Reaction • Patients less …",
+            "accessedAt": "2026-10-13",
+            "page": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "pharm-expanded-31",
+      "topic": "Pharmacology",
+      "subtopic": "Methoxyflurane cumulative limits",
+      "type": "mcq",
+      "stem": "Which dosing statement matches the QAS methoxyflurane DTP?",
+      "options": [
+        {
+          "id": "A",
+          "text": "6 mL initially, repeated every 5 minutes."
+        },
+        {
+          "id": "B",
+          "text": "3 mL with no maximum over a week."
+        },
+        {
+          "id": "C",
+          "text": "3 mL, repeat once after 20 minutes; maximum 6 mL in 24 hours and 15 mL in 7 days."
+        },
+        {
+          "id": "D",
+          "text": "1 mL intravenously, repeated once."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Both the 24-hour and 7-day ceilings matter. The DTP also states administration on consecutive days is not recommended. The regimen is inhaled, not injected.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Drug Therapy Protocols: Methoxyflurane — October 2025",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0028/219358/DTP_Methoxyflurane.pdf#page=3",
+            "quote": "3 mL Repeated once after 2o minutes. Total maximum dose …",
+            "accessedAt": "2026-10-13",
+            "page": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "pharm-expanded-32",
+      "topic": "Pharmacology",
+      "subtopic": "Paediatric paracetamol dose basis",
+      "type": "mcq",
+      "stem": "For QAS paediatric oral paracetamol in a child aged at least one month, which dose basis is listed?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1.5 micrograms/kg."
+        },
+        {
+          "id": "B",
+          "text": "150 mg/kg."
+        },
+        {
+          "id": "C",
+          "text": "15 mL/kg regardless of concentration."
+        },
+        {
+          "id": "D",
+          "text": "15 mg/kg, with a single maximum of 1 g and a previous-dose check."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The paediatric dose is 15 mg/kg for age ≥1 month. The DTP caps a single dose at 1 g and prohibits administration within 4 hours of a previous paracetamol dose. Milligrams describe drug amount; millilitres require concentration information.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Drug Therapy Protocols: Paracetamol — October 2025",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0030/219369/DTP_Paracetamol.pdf#page=4",
+            "quote": "≥ 1 month – 15 mg/kg",
+            "accessedAt": "2026-10-13",
+            "page": 4
+          },
+          {
+            "title": "Drug Therapy Protocols: Paracetamol — October 2025",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0030/219369/DTP_Paracetamol.pdf#page=4",
+            "quote": "Single maximum dose 1 g. Must not be administered within …",
+            "accessedAt": "2026-10-13",
+            "page": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "pharm-expanded-33",
+      "topic": "Pharmacology",
+      "subtopic": "Paracetamol previous-dose check",
+      "type": "mcq",
+      "stem": "A child received paracetamol 3 hours ago. What minimum previous-dose interval is listed in the QAS DTP?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Do not administer within 4 hours of the previous paracetamol dose."
+        },
+        {
+          "id": "B",
+          "text": "One hour is sufficient in every child."
+        },
+        {
+          "id": "C",
+          "text": "There is no restriction if a different brand is used."
+        },
+        {
+          "id": "D",
+          "text": "Changing from tablet to liquid cancels the earlier dose."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The DTP says it must not be administered within 4 hours of previous paracetamol administration. Include parent/carer-administered and combination-product paracetamol when checking the history.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Drug Therapy Protocols: Paracetamol — October 2025",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0030/219369/DTP_Paracetamol.pdf#page=4",
+            "quote": "Single maximum dose 1 g. Must not be administered within …",
+            "accessedAt": "2026-10-13",
+            "page": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "pharm-expanded-34",
+      "topic": "Pharmacology",
+      "subtopic": "Glucose route and indication",
+      "type": "mcq",
+      "stem": "Why does QAS prefer glucose 10% for symptomatic hypoglycaemia when the patient cannot take oral glucose?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It has no effect on BGL."
+        },
+        {
+          "id": "B",
+          "text": "It has rapid onset and can quickly restore blood glucose concentration."
+        },
+        {
+          "id": "C",
+          "text": "It should be swallowed from an IV bag in an unconscious patient."
+        },
+        {
+          "id": "D",
+          "text": "It makes reassessment unnecessary."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The DTP specifies rapid onset and correction of blood glucose. Route authorisation and repeat-dose/BGL assessment remain necessary; do not offer oral treatment when the patient cannot safely take it.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Drug Therapy Protocols: Glucose 10% — June 2026",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0025/219337/DTP_Glucose-10.pdf#page=3",
+            "quote": "Glucose 10% is the preferred treatment for hypoglycaemia for patients …",
+            "accessedAt": "2026-10-13",
+            "page": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "pharm-expanded-35",
+      "topic": "Pharmacology",
+      "subtopic": "Paediatric glucose protocol versus exam key",
+      "type": "mcq",
+      "stem": "In the actual QAS Glucose 10% June 2026 paediatric IV table, what repeat-bolus BGL target is printed?",
+      "options": [
+        {
+          "id": "A",
+          "text": "BGL >4.0 mmol/L, exactly as in the supplied exam marking guide."
+        },
+        {
+          "id": "B",
+          "text": "BGL ≥10.0 mmol/L."
+        },
+        {
+          "id": "C",
+          "text": "BGL ≥3.0 mmol/L."
+        },
+        {
+          "id": "D",
+          "text": "No BGL target is given."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The current linked QAS paediatric table prints ≥3.0 mmol/L. The supplied combined exam Q24 key says >4.0 mmol/L, so that exam item is flagged for course review. The adult QAS table uses ≥4.0 mmol/L. Keep protocol evidence and the assessment marking guide distinct.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Drug Therapy Protocols: Glucose 10% — June 2026",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0025/219337/DTP_Glucose-10.pdf#page=3",
+            "quote": "0.25 g/kg (2.5 mL/kg) Repeated at 0.1 g/kg (1 mL/kg) …",
+            "accessedAt": "2026-10-13",
+            "page": 3
+          },
+          {
+            "title": "Drug Therapy Protocols: Glucose 10% — June 2026",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0025/219337/DTP_Glucose-10.pdf#page=3",
+            "quote": "15 g (150 mL) Repeated at 10 g (100 mL) …",
+            "accessedAt": "2026-10-13",
+            "page": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "pharm-expanded-36",
+      "topic": "Pharmacology",
+      "subtopic": "COPD oxygen target",
+      "type": "mcq",
+      "stem": "According to the QAS Oxygen DTP, which saturation range is the usual listed target for a patient with COPD, outside a special indication such as intra-arrest?",
+      "options": [
+        {
+          "id": "A",
+          "text": "100% in every patient at all times."
+        },
+        {
+          "id": "B",
+          "text": "75–85% for all COPD patients."
+        },
+        {
+          "id": "C",
+          "text": "92–100% regardless of response."
+        },
+        {
+          "id": "D",
+          "text": "88–92%."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "COPD appears in the DTP group with a target SpO2 of 88–92%. The general group is 92–96%, and specific situations such as intra-arrest or CO poisoning have separate instructions. Use the relevant indication and clinical assessment.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Drug Therapy Protocols: Oxygen — October 2024",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0027/219366/DTP_Oxygen.pdf#page=4",
+            "quote": "Titrate oxygen to achieve SpO2 88–92%",
+            "accessedAt": "2026-10-13",
+            "page": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "pharm-expanded-37",
+      "topic": "Pharmacology",
+      "subtopic": "Carbon monoxide and pulse oximetry",
+      "type": "mcq",
+      "stem": "A patient has suspected carbon monoxide poisoning with a reassuring pulse-oximeter reading. What does the QAS Oxygen DTP explain?",
+      "options": [
+        {
+          "id": "A",
+          "text": "QAS monitors cannot distinguish carboxyhaemoglobin from oxyhaemoglobin; maximum oxygen is required irrespective of SpO2."
+        },
+        {
+          "id": "B",
+          "text": "A normal SpO2 excludes carbon monoxide poisoning."
+        },
+        {
+          "id": "C",
+          "text": "Withhold oxygen until SpO2 drops below 88%."
+        },
+        {
+          "id": "D",
+          "text": "Give oxygen only to reach 88–92% in every CO case."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "A standard reassuring SpO2 can mislead in CO poisoning. The DTP explicitly requires maximum oxygen irrespective of that reading.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Drug Therapy Protocols: Oxygen — October 2024",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0027/219366/DTP_Oxygen.pdf#page=3",
+            "quote": "QAS oxygen saturation monitors are unable to differentiate between carboxyhaemoglobin …",
+            "accessedAt": "2026-10-13",
+            "page": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "pharm-expanded-38",
+      "topic": "Pharmacology",
+      "subtopic": "Naloxone initial priorities",
+      "type": "mcq",
+      "stem": "Before QAS naloxone is administered for narcotic-related respiratory depression, which priority is specified?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Delay ventilation until the antagonist works."
+        },
+        {
+          "id": "B",
+          "text": "Provide adequate patient oxygenation and ventilation."
+        },
+        {
+          "id": "C",
+          "text": "Give oral glucose regardless of BGL."
+        },
+        {
+          "id": "D",
+          "text": "Wait for the patient to become fully alert unaided."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "QAS states naloxone should only be administered following adequate oxygenation and ventilation. Reversal does not replace immediate respiratory support.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Drug Therapy Protocols: Naloxone — September 2024",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0024/219363/DTP_Naloxone.pdf#page=3",
+            "quote": "Naloxone should only be administered following adequate patient oxygenation and …",
+            "accessedAt": "2026-10-13",
+            "page": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "pharm-expanded-39",
+      "topic": "Pharmacology",
+      "subtopic": "Naloxone recurrence risk",
+      "type": "mcq",
+      "stem": "Why must a patient remain under assessment after an initial improvement with naloxone?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Naloxone permanently removes all opioids from the body."
+        },
+        {
+          "id": "B",
+          "text": "Every opioid has a shorter duration than naloxone."
+        },
+        {
+          "id": "C",
+          "text": "The narcotic may last longer than naloxone, so renarcotisation can occur."
+        },
+        {
+          "id": "D",
+          "text": "Improvement proves that transport and monitoring are unnecessary."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The DTP warns the opioid effect may outlast naloxone. Recurrent respiratory depression is therefore possible after an apparent initial response.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Drug Therapy Protocols: Naloxone — September 2024",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0024/219363/DTP_Naloxone.pdf#page=3",
+            "quote": "The duration of the narcotic may exceed that of naloxone …",
+            "accessedAt": "2026-10-13",
+            "page": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "pharm-expanded-40",
+      "topic": "Pharmacology",
+      "subtopic": "Adrenaline receptor actions",
+      "type": "mcq",
+      "stem": "Which set of receptor effects matches the QAS adrenaline pharmacology description?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Alpha-1 bronchodilation and beta-2 platelet inhibition."
+        },
+        {
+          "id": "B",
+          "text": "Beta-1 opioid reversal and alpha-1 antiemesis."
+        },
+        {
+          "id": "C",
+          "text": "Beta-2 irreversible cyclo-oxygenase inhibition."
+        },
+        {
+          "id": "D",
+          "text": "Beta-1 increases cardiac rate/contractility, beta-2 promotes bronchodilation, and alpha-1 produces peripheral vasoconstriction."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The DTP attributes cardiac rate/contractility effects to β1, bronchodilation to β2, and peripheral vasoconstriction to α1. These mechanisms do not make every indication, route or concentration interchangeable.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Drug Therapy Protocols: Adrenaline (epinephrine) — June 2026",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0025/219319/DTP_Adrenaline.pdf#page=2",
+            "quote": "Adrenaline (epinephrine) is a naturally occurring catecholamine which primarily acts …",
+            "accessedAt": "2026-10-13",
+            "page": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "pharm-expanded-41",
+      "topic": "Calculations",
+      "subtopic": "Naloxone volume calculation",
+      "type": "mcq",
+      "stem": "In a calculation exercise, the listed adult naloxone IM dose is 1.6 mg and the ampoule concentration is 400 micrograms/mL. What volume contains 1.6 mg?",
+      "options": [
+        {
+          "id": "A",
+          "text": "4 mL."
+        },
+        {
+          "id": "B",
+          "text": "0.004 mL."
+        },
+        {
+          "id": "C",
+          "text": "0.4 mL."
+        },
+        {
+          "id": "D",
+          "text": "40 mL."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Convert 1.6 mg to 1600 micrograms. Volume = 1600 micrograms ÷ (400 micrograms/mL) = 4 mL. The units cancel to mL. This arithmetic does not replace the indication or the oxygenation/ventilation priority.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Drug Therapy Protocols: Naloxone — September 2024",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0024/219363/DTP_Naloxone.pdf#page=3",
+            "quote": "IM 1.6 mg Single dose only.",
+            "accessedAt": "2026-10-13",
+            "page": 3
+          },
+          {
+            "title": "Drug Therapy Protocols: Naloxone — September 2024",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0024/219363/DTP_Naloxone.pdf#page=2",
+            "quote": "Ampoule, 400 microg/mL naloxone hydrochloride dihydrate",
+            "accessedAt": "2026-10-13",
+            "page": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "pharm-expanded-42",
+      "topic": "Calculations",
+      "subtopic": "Glucose concentration reasoning",
+      "type": "mcq",
+      "stem": "The QAS adult glucose 10% table equates 15 g with 150 mL. Which concentration follows from that equality?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 g/mL."
+        },
+        {
+          "id": "B",
+          "text": "0.1 g/mL, equivalent to 100 mg/mL."
+        },
+        {
+          "id": "C",
+          "text": "0.01 mg/mL."
+        },
+        {
+          "id": "D",
+          "text": "10 g/mL."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "15 g ÷ 150 mL = 0.1 g/mL. Multiplying by 1000 mg/g gives 100 mg/mL. Keep concentration separate from a prescribed volume per kilogram.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Drug Therapy Protocols: Glucose 10% — June 2026",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0025/219337/DTP_Glucose-10.pdf#page=3",
+            "quote": "15 g (150 mL) Repeated at 10 g (100 mL) …",
+            "accessedAt": "2026-10-13",
+            "page": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "pharm-expanded-43",
+      "topic": "Calculations",
+      "subtopic": "Paracetamol mass calculation",
+      "type": "mcq",
+      "stem": "A 5-year-old weighing 18 kg requires paracetamol for an authorised indication. Using the QAS paediatric dose of 15 mg/kg, what drug amount is calculated?",
+      "options": [
+        {
+          "id": "A",
+          "text": "18 mg."
+        },
+        {
+          "id": "B",
+          "text": "120 mg."
+        },
+        {
+          "id": "C",
+          "text": "270 mg."
+        },
+        {
+          "id": "D",
+          "text": "270 mL."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "18 kg × 15 mg/kg = 270 mg. The kg units cancel. A liquid volume calculation requires the product concentration and the QAS presentation-specific rounded dosing guidance; 270 mg is not 270 mL.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Drug Therapy Protocols: Paracetamol — October 2025",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0030/219369/DTP_Paracetamol.pdf#page=4",
+            "quote": "≥ 1 month – 15 mg/kg",
+            "accessedAt": "2026-10-13",
+            "page": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "pharm-expanded-44",
+      "topic": "Calculations",
+      "subtopic": "Paediatric glucose initial calculation",
+      "type": "mcq",
+      "stem": "A 7-year-old child weighing 24 kg has symptomatic hypoglycaemia, cannot take oral glucose, and has IV access. The QAS initial glucose 10% dose is 2.5 mL/kg. What initial volume is calculated?",
+      "options": [
+        {
+          "id": "A",
+          "text": "24 mL."
+        },
+        {
+          "id": "B",
+          "text": "9.6 mL."
+        },
+        {
+          "id": "C",
+          "text": "6 mL."
+        },
+        {
+          "id": "D",
+          "text": "60 mL."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "24 kg × 2.5 mL/kg = 60 mL. The separate paediatric repeat bolus is 1 mL/kg, so it is important to identify whether the question asks for the initial dose or a repeat.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Drug Therapy Protocols: Glucose 10% — June 2026",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0025/219337/DTP_Glucose-10.pdf#page=3",
+            "quote": "0.25 g/kg (2.5 mL/kg) Repeated at 0.1 g/kg (1 mL/kg) …",
+            "accessedAt": "2026-10-13",
+            "page": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "pharm-expanded-45",
+      "topic": "Calculations",
+      "subtopic": "Fentanyl concentration calculation",
+      "type": "mcq",
+      "stem": "For a calculation exercise, an authorised 25-microgram fentanyl dose is to be measured from an ampoule containing 100 micrograms in 2 mL. What undiluted drug volume contains 25 micrograms?",
+      "options": [
+        {
+          "id": "A",
+          "text": "0.5 mL."
+        },
+        {
+          "id": "B",
+          "text": "2.5 mL."
+        },
+        {
+          "id": "C",
+          "text": "5 mL."
+        },
+        {
+          "id": "D",
+          "text": "0.05 mL."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "100 micrograms ÷ 2 mL = 50 micrograms/mL. Then 25 micrograms ÷ (50 micrograms/mL) = 0.5 mL. This calculates drug volume from the stated presentation, not an alternative dosing or preparation protocol.",
+      "sourceExam": "expanded",
+      "questionNumber": null,
+      "image": null,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-10-13",
+        "citations": [
+          {
+            "title": "Drug Therapy Protocols: Fentanyl — July 2022",
+            "url": "https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0021/219333/dtp_fentanyl.pdf#page=3",
+            "quote": "Ampoule, 100 microg/2 mL fentanyl",
+            "accessedAt": "2026-10-13",
+            "page": 3
+          }
+        ]
+      }
+    }
+  ]
+}
