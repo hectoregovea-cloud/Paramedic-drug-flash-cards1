@@ -1,0 +1,15 @@
+{
+  "name": "paramedic-drug-flashcards",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A browser-based study deck for the supplied QAS ACP2 pharmacology flashcards.",
+  "type": "module",
+  "engines": { "node": "^20.19.0 || >=22.12.0" },
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 5173 --strictPort",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 4173 --strictPort",
+    "test": "node --test"
+  },
+  "devDependencies": { "vite": "8.3.4" }
+}
